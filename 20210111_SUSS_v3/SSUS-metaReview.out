@@ -1,0 +1,23 @@
+\BOOKMARK [1][-]{section.1}{An introduction to open ultrasound hardware}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{A renewed interest in ultrasound}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Open-source ultrasound hardware}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Review of ultrasound usage}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{The main ultrasound imaging modes}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.2}{A wealth of applications}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.3}{Minimal specifications for a B-Mode device}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Considerations leading to the design of the system architecture}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Sourcing information }{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Functional blocks composing ultrasound systems}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Earlier works on simple hardware architectures for ultrasound systems}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.4}{State of the art and review of the ultrasound hardware designs}{section.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Design sources for the state of the art review}{subsection.3.4}% 13
+\BOOKMARK [3][-]{subsubsection.3.4.2}{Electronic Analog Front-End \(AFE\)}{subsection.3.4}% 14
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Multi-channel designs hardware}{subsection.3.4}% 15
+\BOOKMARK [3][-]{subsubsection.3.4.4}{Mechanical sweeping}{subsection.3.4}% 16
+\BOOKMARK [3][-]{subsubsection.3.4.5}{A challenge: high-voltage generation}{subsection.3.4}% 17
+\BOOKMARK [3][-]{subsubsection.3.4.6}{Considerations when choosing acoustic materials}{subsection.3.4}% 18
+\BOOKMARK [1][-]{section.4}{Downstream hardware, to signal processing}{}% 19
+\BOOKMARK [2][-]{subsection.4.1}{Transmission of the digital information - bandwidth reduction}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.2}{Piggy backing on the development of open source FPGAs}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.3}{Signal processing options for improving single-element ultrasound imaging}{section.4}% 22
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 23
