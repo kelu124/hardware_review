@@ -1,0 +1,28 @@
+%Discrete pulsers have been used. Design include dual stage designs, based on a driver ( MD1213 or MD1711) and high voltage FETs. Couples seen could be TC7320 and MD1810 \cite{kang_system--chip_2016}.
+%Integrated alternatives are HV7361/HV7351 designs, HV748 being deprecated. Contrarily to the HV7361, the 8-channel HV7351 also allows for predetermined transmit patterns.
+
+%Alternatively, for customised waveform pulser, a DAC and power amplifier combination can be used \cite{matera_smart_2018}. %
+
+\begin{table}[h!]
+\begin{tabular}{p{0.2\linewidth} | p{0.3\linewidth} | p{0.45\linewidth} }%{lllll}
+\textbf{Typology}                    & \textbf{Components}          & \textbf{Examples} \\
+
+Drivers and high voltage FETs  
+& MD1213+MD1711, TC7320+MD1810 , EL7158+TC6320
+& \cite{sharma_development_2015,wu_novel_2013,ching_chu_designing_nodate}                 \\
+
+Integrated Chips 
+& HV7361/HV7351, HV748, STHV800, LM96551
+& \cite{martins_-scan_2017,zhang_multi-channel_2017,hewener_highly_2012,worthing_using_2016}                 \\
+
+Multiplexers/switches 
+& MAX14808
+& \cite{rodriguez-olivares_improvement_2018,lee_new_2014,garcia_piezoelectric_2014,boni_ula-op_2016} \\
+
+Signal generator and power amplifier 
+& THS5651A+LT1210CS, TCA0372
+& \cite{matera_smart_2018,choi_versatile_2020}
+\end{tabular}
+\caption{Pulsers, by approach}
+\label{tab:pulser}
+\end{table}

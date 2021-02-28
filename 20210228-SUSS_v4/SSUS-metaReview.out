@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{A renewed interest in ultrasound hardware}{}% 1
+\BOOKMARK [1][-]{section.2}{The main ultrasound imaging modes}{}% 2
+\BOOKMARK [1][-]{section.3}{Considerations leading to the design of the system architecture}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Information feeding in the review}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Functional blocks composing ultrasound systems}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{State of the art and review of the ultrasound hardware designs}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Design sources for the state of the art review}{subsection.3.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.3.2}{High voltage pulser \(transmit stage\)}{subsection.3.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Switches}{subsection.3.3}% 9
+\BOOKMARK [3][-]{subsubsection.3.3.4}{Amplifiers}{subsection.3.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.3.5}{Analog to digital converters \(ADCs\)}{subsection.3.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.6}{Electronic Analog Front-End \(AFE\)}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.7}{A challenge: high-voltage generation}{subsection.3.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.3.8}{Mechanical sweeping}{subsection.3.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.9}{Considerations when choosing acoustic materials}{subsection.3.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.10}{Controlers are piggy-backing on the development of open source FPGAs}{subsection.3.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.11}{Transmission of the digital information - bandwidth reduction}{subsection.3.3}% 17
+\BOOKMARK [1][-]{section.4}{Signal processing steps}{}% 18
+\BOOKMARK [2][-]{subsection.4.1}{Conventional signal processing considerations}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.2}{Recent signal processing considerations}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 21
