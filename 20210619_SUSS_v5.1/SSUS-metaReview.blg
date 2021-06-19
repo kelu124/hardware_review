@@ -1,0 +1,105 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: SSUS-metaReview.aux
+The style file: apalike.bst
+Reallocated field_info (elt_size=4) to 11050 items from 5000.
+Database file #1: all.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Database file #2: new.bib
+Database file #3: LIGHT.bib
+Repeated entry---line 2 of file LIGHT.bib
+ : @article{zhang_full_2019
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 19 of file LIGHT.bib
+ : @article{yu_direct_2020
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 36 of file LIGHT.bib
+ : @inproceedings{wei_design_2020
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 51 of file LIGHT.bib
+ : @article{garcia-rodriguez_low_2010
+ :                                   ,
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in noauthor_wrist_nodate
+Warning--empty year in noauthor_wrist_nodate
+Warning--empty booktitle in assef_design_2012
+Warning--empty booktitle in basak_wearable_2013
+Warning--empty year in biosono_sonolab_nodate
+Warning--empty booktitle in brausch_classifying_2019
+Warning--empty journal in brunner_how_2002
+Warning--empty year in ching_chu_designing_nodate
+Warning--empty journal in ching_chu_designing_nodate
+Warning--empty booktitle in eggleton_real_1975
+Warning--empty year in fritsch_full_nodate
+Warning--empty journal in fritsch_full_nodate
+Warning--empty school in garcia_piezoelectric_2014
+Warning--empty journal in granata_designing_2020
+Warning--empty journal in gwirc_desarrollo_2019
+Warning--empty booktitle in hager_ultralight:_2017
+Warning--empty journal in luc_jonveaux_un0rick_2019
+Warning--empty booktitle in kushi_ultrasonic_2017
+Warning--empty year in lecoeur_bluetooth_nodate
+Warning--empty year in lei_high-frame_nodate
+Warning--empty journal in lei_high-frame_nodate
+Warning--empty school in levesque_architecture_2011
+Warning--empty journal in martins_-scan_2017
+Warning--empty journal in meng_rtl-ultrasound_2019
+Warning--empty journal in ozdemir_remote_2018
+Warning--empty booktitle in pashaei_live_2018
+Warning--empty booktitle in peyton_front-end_2017
+Warning--empty publisher in raj_8051_2016
+Warning--empty year in saijo_development_nodate
+Warning--empty journal in saijo_development_nodate
+Warning--empty journal in sharma_development_2015
+Warning--empty booktitle in taylor_development_2017
+Warning--empty year in veenstra_generating_nodate
+Warning--empty school in wall_high-speed_2010
+Warning--empty booktitle in weng_fpga-based_2015
+Warning--empty school in worthing_using_2016
+Warning--empty booktitle in yang_compressed_2009
+Warning--empty booktitle in zhang_evaluation_2019
+You've used 275 entries,
+            1935 wiz_defined-function locations,
+            1834 strings with 66379 characters,
+and the built_in function-call counts, 132915 in all, are:
+= -- 12896
+> -- 6740
+< -- 169
++ -- 2508
+- -- 2378
+* -- 11608
+:= -- 22491
+add.period$ -- 851
+call.type$ -- 275
+change.case$ -- 2554
+chr.to.int$ -- 261
+cite$ -- 314
+duplicate$ -- 4834
+empty$ -- 8502
+format.name$ -- 2706
+if$ -- 26174
+int.to.chr$ -- 15
+int.to.str$ -- 0
+missing$ -- 252
+newline$ -- 1381
+num.names$ -- 832
+pop$ -- 2522
+preamble$ -- 1
+purify$ -- 2559
+quote$ -- 0
+skip$ -- 3655
+stack$ -- 0
+substring$ -- 9018
+swap$ -- 997
+text.length$ -- 102
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1648
+warning$ -- 38
+while$ -- 1055
+width$ -- 0
+write$ -- 3579
+(There were 4 error messages)

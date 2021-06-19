@@ -1,0 +1,68 @@
+
+% \textbf{\textit{Overall imaging}}: although it is relatively simple and does not enable 2D imaging, A-mode enables measurements for examinations such as para-nasal sinuses, trans-skull fluid detection, sinus pathology, skeletal muscle detection in the wrist extension \cite{noauthor_wrist_nodate}, measurement of the artery lumen diameter \cite{hu_design_2011, zhang_multi-channel_2017, shomaji_early_2019}, bone porosity \cite{wahab_design_2016, fontes-pereira_monitoring_2018, grasel_characterization_2017} and ophthalmology assessments \cite{carotenuto_very_2004}.
+
+%Ultrasound can be used for \textbf{\textit{Vascular assessments}}, to measure the diameter and the blood pulse speed traveling through the radial artery \cite{worthing_using_2016}, which then can be used to track changes in blood pressure at various points on the human body. 
+%Other \textbf{\textit{body monitoring}} uses include artery stiffness measurements \cite{joseph_technical_2015, joseph_artsenstouch_2015, seo_non-invasive_2018}, monitoring bone density \cite{wahab_design_2016, fontes-pereira_monitoring_2018},tissue assessment \cite{keyes_electrical_2017}, including muscle evolution \cite{brausch_towards_2019} for example quantifying neuro-muscular disease progression \cite{zhang_design_2015}, both using A-mode and B-mode imaging. 
+
+%\textbf{\textit{Body composition assessment}} is another application of A-mode imaging \cite{wagner_validity_2016, martins_-scan_2017}. The measurement of \textbf{\textit{bladder volumes}} is also a standard medical use \cite{kuru_feasibility_2019}. 
+
+%Another use can be providing \textbf{\textit{biofeedback}}, as it has been shown that ultrasound imaging enables the tracking of muscle movements \cite{sikdar_novel_2014} and follow-up of biofeedback in stroke reeducation \cite{sosnowska_training_2019}. 
+
+%Last but not least, ultrasound has also been used in \textbf{\textit{tracking body movements}}, for example, tracking obstructive sleep apnea \cite{weng_fpga-based_2015}, breathing patterns \cite{shahshahani_ultrasound_2018}, and heart muscle behavior \cite{nguyen_estimating_2019}.
+
+%Other interesting uses include the development of \textbf{\textit{ultrasound capsules}}, typically swallowable devices, which enable endoscopy imaging using high frequency ultrasound by fitting the hardware into a 10mm diameter by 30 mm long capsule \cite{cox_ultrasound_2017, wang_development_2017}. Capsules promise further development, and their architecture can be a source of inspiration \cite{lee_towards_2014, memon_capsule_2016, lay_progress_2016, lay_-vivo_2018}. \textbf{\textit{Wearable devices}} are also gaining momentum due to the miniaturisation trend in components and sensors \cite{basak_wearable_2013}. This is also seen in \textbf{\textit{neuromodulation}} \cite{pashaei_flexible_2020} applications, where ultrasound is used both to power implants, communicate with them or between them \cite{johnson_stimdust_2018, seo_wireless_2016, santagati_design_2020}, and even to stream video \cite{kou_real-time_2020}.
+
+%Ultrasound is also used for \textbf{\textit{nondestructive testing (NDT)}} or nondestructive examination (NDE)  \cite{duncan_real-time_1990,noauthor_integration_nodate}, for quality or integrity control of mechanical elements. \cite{fritsch_full_nodate} presents a very interesting design for single-element FPGA-based NDE design, migrating traditionally analog functions, like filtering and envelope extraction, to the digital domain developed by others  \cite{triger_modular_2008, shrisha_fpga_2018, rodriguez-olivares_improvement_2018}, as we will see below. 
+
+\begin{table}[]
+\begin{tabular}{p{0.15\linewidth} | p{0.40\linewidth} | p{0.40\linewidth} }%{lllll}
+Application & Description  & References  \\
+
+ NDT/NDE 
+& Ultrasound is commonly used for quality or integrity control of mechanical elements, based on pulse-echo measurement.  
+& 
+\cite{zhang_fpga_2012,triger_modular_2008,assef_initial_2016,schueler_fundamentals_1984,zhang_autonomous_2018,zhang_implementation_2021,clementi_identification_2020}
+\\
+General imaging & 
+Although it is relatively simple and does not enable 2D imaging, A-mode enables measurements for examinations such as para-nasal sinuses, trans-skull fluid detection, sinus pathology orophthalmology assessments, and even fluid physical properties. 
+& \cite{noauthor_wrist_nodate,carotenuto_very_2004,yang_exploration_2021} &  \\  
+
+Non-doppler vascular assessments 
+& Devices were used to measure the diameter and the blood pulse speed traveling through the radial artery, which then can be used to track changes in blood pressure at various points on the human body, or even artery stiffness. 
+& \cite{worthing_using_2016,hu_design_2011, zhang_multi-channel_2017, shomaji_early_2019,joseph_technical_2015, joseph_artsenstouch_2015, seo_non-invasive_2018} &  \\
+
+Bone Porosity
+& Ultrasound measurements have been shown to be a solution to measure evolution of bone indicators, such as porosity.
+& \cite{wahab_design_2016, fontes-pereira_monitoring_2018, grasel_characterization_2017} &  \\
+
+ Body monitoring  
+& Tissue monitoring uses include tissue assessment, for example quantifying neuro-muscular disease progression.
+& \cite{keyes_electrical_2017,zhang_design_2015,brausch_towards_2019,park_ultrasound_2019}  &  \\
+
+Bladder measurements
+& Measurement of bladder volumes is also a standard medical care use, though not necessarily for diagnostic purposes.
+& \cite{kuru_feasibility_2019}  &  \\
+
+Biofeedback
+& Ultrasound imaging enables the observation of muscle movements support the follow-up of biofeedback, for example in stroke reeducation or human-machine interfaces. & \cite{sosnowska_training_2019,sikdar_novel_2014,kwong_application_2020,yang_simultaneous_2020,li_human-machine_2016,boyd_ultrasound_2019,eshky_automatic_2021}       &  \\
+
+Movement tracking 
+& Ultrasound has been used in tracking body movements for example, tracking obstructive sleep apnea, breathing patterns , and heart muscle behavior.
+& \cite{nguyen_estimating_2019,shahshahani_ultrasound_2018,weng_fpga-based_2015,fernandes_evaluation_2021}  &  \\
+              
+Neuromodulation                  
+& Ultrasound is used in neuromodulation experiments, including communication with implantable stimulators.
+& \cite{pashaei_flexible_2020,johnson_stimdust_2018, seo_wireless_2016, santagati_design_2020}.       &  \\
+
+Capsule imaging                          & Typically small devices, which enable endoscopy imaging using high frequency ultrasound by fitting the hardware into relatively capsules. They promise further development, and their architecture can be a source of inspiration.  
+& \cite{cox_ultrasound_2017, wang_development_2017,lee_towards_2014, memon_capsule_2016, lay_progress_2016, lay_-vivo_2018} &  \\
+
+Wearables                        & Aligned with streamlining and increase of affordability of ultrasound miniaturisation, ultrasound fits with wearable requirements and even can provide powering and communication means for implants.
+& \cite{basak_wearable_2013,kou_real-time_2020,yang_wearable_2019}.       &  \\
+
+\end{tabular}
+
+\caption{Applications, by group of uses}
+\label{tab:applications}
+
+\end{table}
